@@ -4,6 +4,10 @@
 
 ## Étape 1
 
+```template
+// 
+```
+
 ```ghost
 basic.showIcon(IconNames.Heart)
 basic.showNumber(0)
