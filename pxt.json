@@ -8,5 +8,9 @@
   "files": [
     "main.ts",
     "niveaux/niveau01/env01.md"
-  ]
+  ],
+  "supportedTargets": [
+    "microbit"
+  ],
+  "preferredEditor": "blocksprj"
 }
