@@ -7,7 +7,8 @@
   },
   "files": [
     "main.ts",
-    "niveaux/niveau01/env01.md"
+    "niveaux/niveau01/env01.md",
+    "niveaux/niveau02/env02.md"
   ],
   "supportedTargets": [
     "microbit"
