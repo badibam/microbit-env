@@ -1,0 +1,11 @@
+{
+  "name": "microbit-env",
+  "description": "Environnements MakeCode pour le projet micro:bit SEGPA",
+  "dependencies": {
+    "core": "*"
+  },
+  "files": [
+    "main.ts",
+    "niveaux/niveau01/env01.md"
+  ]
+}
