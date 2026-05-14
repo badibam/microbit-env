@@ -1,5 +1,5 @@
 {
-  "name": "microbit-env",
+  "name": "microbit-simon",
   "description": "Environnements MakeCode pour le projet micro:bit SEGPA",
   "dependencies": {
     "core": "*",
