@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cours Micro:bit — Simon</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      max-width: 680px;
+      margin: 2.5rem auto;
+      padding: 0 1rem;
+      background: #f4f6fb;
+      color: #222;
+    }
+    h1 { color: #1e6ec8; margin-bottom: 0.2rem; font-size: 1.6rem; }
+    .subtitle { color: #666; margin-top: 0; margin-bottom: 2rem; font-size: 0.95rem; }
+    .levels { display: flex; flex-direction: column; gap: 0.7rem; }
+    a.level {
+      background: white;
+      border-left: 4px solid #1e6ec8;
+      border-radius: 6px;
+      padding: 0.9rem 1.1rem;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+      text-decoration: none;
+      color: inherit;
+      transition: background 0.15s;
+    }
+    a.level:hover { background: #eef4ff; }
+    div.level {
+      background: white;
+      border-left: 4px solid #ddd;
+      border-radius: 6px;
+      padding: 0.9rem 1.1rem;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      opacity: 0.45;
+    }
+    .num {
+      font-size: 1.4rem;
+      font-weight: bold;
+      color: #1e6ec8;
+      min-width: 1.8rem;
+      text-align: center;
+    }
+    div.level .num { color: #aaa; }
+    .info .title { font-weight: 600; font-size: 1rem; }
+    .info .concept { font-size: 0.82rem; color: #888; margin-top: 0.15rem; }
+    .tag {
+      margin-left: auto;
+      font-size: 0.72rem;
+      padding: 0.2rem 0.55rem;
+      border-radius: 10px;
+      white-space: nowrap;
+    }
+    a.level .tag { background: #ddeeff; color: #1e6ec8; }
+    div.level .tag { background: #eee; color: #aaa; }
+  </style>
+</head>
+<body>
+
+  <h1>Cours Micro:bit</h1>
+  <p class="subtitle">Clique sur un niveau pour l'ouvrir dans MakeCode.</p>
+
+  <div class="levels">
+
+    <a class="level" href="https://tiny.cc/8042101" target="_blank">
+      <span class="num">1</span>
+      <div class="info">
+        <div class="title">Affichage de base</div>
+        <div class="concept">au démarrage · montrer l'icône · pause</div>
+      </div>
+      <span class="tag">Disponible</span>
+    </a>
+
+    <a class="level" href="https://tiny.cc/e042101" target="_blank">
+      <span class="num">2</span>
+      <div class="info">
+        <div class="title">La boucle infinie</div>
+        <div class="concept">toujours</div>
+      </div>
+      <span class="tag">Disponible</span>
+    </a>
+
+    <a class="level" href="https://tiny.cc/f042101" target="_blank">
+      <span class="num">3</span>
+      <div class="info">
+        <div class="title">Variable — stocker</div>
+        <div class="concept">définir [x] à</div>
+      </div>
+      <span class="tag">Disponible</span>
+    </a>
+
+    <a class="level" href="https://tiny.cc/g042101" target="_blank">
+      <span class="num">4</span>
+      <div class="info">
+        <div class="title">Variable — modifier</div>
+        <div class="concept">modifier [x] de</div>
+      </div>
+      <span class="tag">Disponible</span>
+    </a>
+
+    <div class="level">
+      <span class="num">5</span>
+      <div class="info">
+        <div class="title">Événement gestuel</div>
+        <div class="concept">lorsque [secouer]</div>
+      </div>
+      <span class="tag">À venir</span>
+    </div>
+
+    <div class="level">
+      <span class="num">6</span>
+      <div class="info">
+        <div class="title">Le hasard</div>
+        <div class="concept">choisir au hasard</div>
+      </div>
+      <span class="tag">À venir</span>
+    </div>
+
+    <div class="level">
+      <span class="num">7</span>
+      <div class="info">
+        <div class="title">Comparateurs et sinon</div>
+        <div class="concept">si [...] alors / sinon · &lt; &gt; =</div>
+      </div>
+      <span class="tag">À venir</span>
+    </div>
+
+    <div class="level">
+      <span class="num">8</span>
+      <div class="info">
+        <div class="title">Les capteurs</div>
+        <div class="concept">température · niveau d'intensité lumineuse</div>
+      </div>
+      <span class="tag">À venir</span>
+    </div>
+
+    <div class="level">
+      <span class="num">9</span>
+      <div class="info">
+        <div class="title">Le son</div>
+        <div class="concept">jouer ton [...] pendant</div>
+      </div>
+      <span class="tag">À venir</span>
+    </div>
+
+    <div class="level">
+      <span class="num">10</span>
+      <div class="info">
+        <div class="title">Boucle finie — synthèse</div>
+        <div class="concept">répéter [...] fois</div>
+      </div>
+      <span class="tag">À venir</span>
+    </div>
+
+  </div>
+
+</body>
+</html>
