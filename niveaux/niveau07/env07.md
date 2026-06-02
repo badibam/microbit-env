@@ -24,4 +24,7 @@ x = Math.randomRange(0, 10)
 if (true) {
 } else {
 }
+0 < 0
+0 > 0
+0 == 0
 ```
