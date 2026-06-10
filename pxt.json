@@ -13,7 +13,8 @@
     "niveaux/niveau04/env04.md",
     "niveaux/niveau05/env05.md",
     "niveaux/niveau06/env06.md",
-    "niveaux/niveau07/env07.md"
+    "niveaux/niveau07/env07.md",
+    "niveaux/niveau08/env08.md"
   ],
   "supportedTargets": [
     "microbit"
