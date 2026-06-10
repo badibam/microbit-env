@@ -24,7 +24,7 @@ x = Math.randomRange(0, 10)
 if (true) {
 } else {
 }
-0 < 0
-0 > 0
-0 == 0
+let _b = 0 < 0
+_b = 0 > 0
+_b = 0 == 0
 ```
